@@ -98,8 +98,19 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-white/15 pt-5 text-center text-xs text-white/60 sm:mt-12 sm:pt-6 sm:text-sm">
-          © {new Date().getFullYear()} SISTECNO · Reparación de electrodomésticos · Mar del Plata
+        <div className="mt-8 flex flex-col items-center justify-between gap-3 border-t border-white/15 pt-5 text-center text-xs text-white/60 sm:mt-12 sm:flex-row sm:gap-0 sm:pt-6 sm:text-sm">
+          <p>© {new Date().getFullYear()} SISTECNO · Reparaciones en Mar del Plata</p>
+          <p>
+            Diseñado y desarrollado por{' '}
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-white/80 transition-colors hover:text-accent"
+            >
+              Nicolas Medina
+            </a>
+          </p>
         </div>
       </div>
     </footer>
