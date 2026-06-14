@@ -4,7 +4,7 @@ import { PHONE_DISPLAY, PHONE_HREF, HOURS, INSTAGRAM_URL, FACEBOOK_URL } from '@
 export function SiteFooter() {
   return (
     <footer className="bg-[#061B3A] text-white">
-      <div className="mx-auto max-w-6xl px-4 py-10 sm:py-14 md:px-6">
+      <div className="mx-auto max-w-6xl px-4 pb-28 pt-10 sm:pb-14 sm:pt-14 md:px-6">
         <div className="grid gap-8 sm:gap-10 md:grid-cols-3">
           {/* Brand */}
           <div>
