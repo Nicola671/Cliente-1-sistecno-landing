@@ -103,7 +103,7 @@ export function SiteFooter() {
           <p>
             Diseñado y desarrollado por{' '}
             <a
-              href="https://wa.me/5492236160926?text=Hola%20Nicol%C3%A1s%2C%20vi%20tu%20trabajo%20en%20la%20web%20de%20SISTECNO%20y%20me%20gustar%C3%ADa%20hacerte%20una%20consulta."
+              href="https://wa.me/5492236160926"
               target="_blank"
               rel="noopener noreferrer"
               className="font-bold text-white/80 transition-colors hover:text-accent"
