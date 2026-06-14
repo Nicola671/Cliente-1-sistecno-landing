@@ -100,7 +100,7 @@ export function SiteFooter() {
 
         <div className="mt-8 flex flex-col items-center justify-between gap-3 border-t border-white/15 pt-5 text-center text-xs text-white/60 sm:mt-12 sm:flex-row sm:gap-0 sm:pt-6 sm:text-sm">
           <p>© {new Date().getFullYear()} SISTECNO · Reparaciones en Mar del Plata</p>
-          <p>
+          <p className="sm:pr-56 md:pr-64 lg:pr-12">
             Diseñado y desarrollado por{' '}
             <a
               href="https://wa.me/5492236160926"
